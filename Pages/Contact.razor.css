@@ -1,0 +1,85 @@
+﻿.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-label {
+    font-size: 12px;
+}
+
+.status {
+    margin-top: 1%;
+}
+
+.contact-me {
+    margin-top: 1%;
+}
+
+.send-btn {
+    font-size: 1rem;
+}
+
+.contact-description {
+    width: 70%;
+}
+
+.contact-container .row {
+    height: 70px;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .contact-me {
+        width: 67%;
+    }
+
+    .contact-description {
+        font-size: 16px;
+    }
+
+    .contact-icon {
+        font-size: 2.5em;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .send-btn {
+        font-size: 1.5rem;
+    }
+
+    .contact-container div.row {
+        height: 83px;
+    }
+
+    .input-label {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 720px) {
+    .contact-container div.row {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-description {
+        font-size: 12px;
+    }
+
+    .contact-container div.row {
+        height: auto;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .input-label {
+        font-size: 10px;
+    }
+
+    div.row .md-form label.input-label.active {
+        transform: translateY(-14px) scale(1) !important;
+        font-size: 1rem !important;
+    }
+}

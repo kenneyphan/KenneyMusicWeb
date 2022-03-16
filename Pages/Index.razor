@@ -1,0 +1,69 @@
+﻿@page "/"
+@inject IJSRuntime JS
+@using Toolbelt.Blazor.HeadElement
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<Title>Kenney</Title>
+<Link Rel="icon" Href=""/>
+
+<div class="index-container">
+    <h1 class="title" id="title">Kenney</h1>
+
+    <div class="social-links" id="social-links">
+        <a href="https://soundcloud.com/kn_p" target="_blank"><i class="fa fa-soundcloud social-item"></i></a>
+        <a href="https://open.spotify.com/artist/5ORscNEFyzG8hxWA015Wxs" target="_blank"><i class="fa fa-spotify social-item"></i></a>
+        <a href="https://www.instagram.com/kenneyp_/" target="_blank"><i class="fa fa-instagram social-item"></i></a>
+        <a href="https://www.youtube.com/channel/UCKlfLNBYM7pOH7dPNkPQllg" target="_blank"><i class="fa fa-youtube-play social-item"></i></a>
+        <a href="https://www.tiktok.com/@@kenneyphan" target="_blank"><i class="fab fa-tiktok social-item"></i></a>
+        <a href="https://www.facebook.com/kenneypmusic/" target="_blank"><i class="fa fa-facebook social-item"></i></a>
+    </div>
+
+    <div class="container arena-container">
+        <a href="#description" data-toggle="collapse" id="arena-link" onclick="toggleScroll()">
+            <img src="/images/Arena.jpg" class="img-circle person arena-pic" id="arena-pic"/>
+        </a>
+    </div>
+
+    <div id="description" class="description collapse" aria-expanded="false">
+        <p class="description-txt">
+            Hailing from Irvine, CA, Kenney is an Electronic Dance Music producer that specializes in Trap music. His influences from Metal and Hip Hop have been
+            portrayed in his music through his lyrical content and heavy hitting drums.
+            His inspirations include: <strong>RL Grime, Boombox Cartel, Quix, CRWTH, Eliminate, 4B, Bailo, Lit Lords, Fabian Mazur</strong> and more.
+
+            <br />
+            <br />
+            Kenney always had an inclination for music at a very young age. His earliest memory of experiencing music was about 4 years old when he was trying to play the drums to Lion Dancing music by
+            humming the melody in his head, and banging on toys with a pair of sticks. From then on, Kenney's passion for music began to reveal itself when he first learned to
+            play the drums at the age of 9. Having experienced playing drums in symphonic, marching, jazz, and rock bands, his musical ability in drumming has translated
+            into his music in various forms.
+
+            <br />
+            <br />
+            Fast forward to the year of 2015 when he experienced his first rave at Electric Daisy Carnival, Las Vegas. Before then, Kenney had listened to EDM and was interested
+            in the genre, but had no desire to pursue music production. However, the first DJ he ever saw at EDC was Benny Benassi, and it changed his life forever.
+            Before making music, Kenney never truly knew what he wanted to do, but he had this vision that whatever he ended up pursuing in his life
+            that he would be able to look around, and see that everyone is smiling and happy.
+            Being able to experience firsthand the ability of a DJ to make everyone around them feel the same emotions as they felt connected the dots in his head:
+            That he can use his passion for music to bring joy and happiness to others. Thus, he began his journey as an EDM producer and DJ.
+
+            <br />
+            <div class="text-muted quote">
+                <em>
+                    "Making others happy with my music is the best thing I can offer to this world. And it is my goal and purpose to keep going until I can't anymore."
+                    <br />
+                </em>
+                <div class="quote-name">- Kenney Phan</div>
+            </div>
+        </p>
+    </div>
+</div>
+

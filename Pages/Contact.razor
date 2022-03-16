@@ -1,0 +1,96 @@
+﻿@page "/contact"
+@using Toolbelt.Blazor.HeadElement
+
+<Title>CONTACT –– Kenney</Title>
+
+<div class="contact-container">
+    <!--Section: Contact v.2-->
+    <section class="mb-4 contact-me">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5 contact-description">
+            Any questions or concerns about my music? Or want to reach out about anything? Please don't hesitate to contact me directly.
+        </p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+
+                <EditForm Model="@userEmail" OnValidSubmit="@SendMail">
+                    <DataAnnotationsValidator />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" @bind="userEmail.senderName">
+                                <label for="name" class="input-label">Your name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" @bind="userEmail.email">
+                                <label for="email" class="input-label">Your email</label>
+                                <ValidationMessage For="@(() => userEmail.email)" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control" @bind="userEmail.subjectEmail">
+                                <label for="subject" class="input-label">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" @bind="userEmail.bodyEmail"></textarea>
+                                <label for="message" class="input-label">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center text-md-left">
+                        <button class="btn btn-primary send-btn" type="submit" disabled="@buttonDisable">@buttonLabel</button>
+                    </div>
+
+                </EditForm>
+
+                <div class="status">
+                    @((MarkupString)confirmationMsg)
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x contact-icon"></i>
+                        <p class="contact-info">Irvine, CA 92618, USA</p>
+                    </li>
+
+                    @*<li>
+                            <i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 01 234 567 89</p>
+                        </li>*@
+
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-2x contact-icon"></i>
+                        <p class="contact-info">mrphantasticmusic@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+</div>
+

@@ -1,0 +1,103 @@
+﻿@inherits LayoutComponentBase
+@inject IJSRuntime JS
+@inject NavigationManager NavigationManager
+
+<div class="page">
+    @*<div class="sidebar">
+            <NavMenu />
+        </div>*@
+
+    <div class="main">
+        <img src="/images/erebus-knight-chii.jpg" class="banner" id="banner">
+        <div class="px-4 navigation" id="navigation">
+            <NavLink href="/" Match=NavLinkMatch.All class="px-3 nav-item" id="nav-item" @onclick="Collapse">HOME</NavLink>
+            <NavLink href="music" class="px-3 nav-item" id="nav-item">MUSIC</NavLink>
+            <NavLink href="contact" class="px-3 nav-item" id="nav-item">CONTACT</NavLink>
+        </div>
+
+        <div class="body-container" id="body-container">
+            @Body
+        </div>
+    </div>
+</div>
+
+<style>
+    .nav-item {
+        color: white;
+        font-family: fantasy;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+
+        .nav-item.active {
+        }
+
+    .navigation a:hover {
+        color: rgba(255,255,255,.4);
+        text-decoration: none;
+    }
+
+    .navigation a:focus {
+        color: white;
+        text-decoration: none;
+    }
+
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+    }
+
+    @@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+        .nav-item {
+            font-size: 16px;
+        }
+
+        .main .body-container.sticky {
+            margin-top: 410px;
+        }
+    }
+
+    @@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+        .main .body-container.sticky {
+            margin-top: 350px;
+        }
+    }
+</style>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            string pageName = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+
+            if (pageName.Equals("music"))
+            {
+                await JS.InvokeVoidAsync("musicSticky");
+            }
+            else
+            {
+                await JS.InvokeVoidAsync("navBarSticky");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    public async void Collapse()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("collapse");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}
+

@@ -1,0 +1,120 @@
+﻿@page "/music"
+@using Toolbelt.Blazor.HeadElement
+@inject IJSRuntime JS
+
+<Title>MUSIC –– Kenney</Title>
+
+<div class="music-container">
+    <div class="link-container" id="link-container">
+        <h2 class="music-platform">
+            <a href="https://soundcloud.com/kn_p" target="_blank" class="music-link">SOUNDCLOUD</a>
+        </h2>
+        <h2 class="music-platform">
+            <a href="https://open.spotify.com/artist/5ORscNEFyzG8hxWA015Wxs" target="_blank" class="music-link">SPOTIFY</a>
+        </h2>
+        <h2 class="music-platform">
+            <a href="https://www.youtube.com/channel/UCKlfLNBYM7pOH7dPNkPQllg" target="_blank" class="music-link">YOUTUBE</a>
+        </h2>
+        <h2 class="music-platform">
+            <a href="https://audius.co/mrphantastic" target="_blank" class="music-link">AUDIUS</a>
+        </h2>
+        <h2 class="music-platform">
+            <a href="https://audiomack.com/kenney-phan" target="_blank" class="music-link">AUDIOMACK</a>
+        </h2>
+    </div>
+
+    <div class="albums" id="albums">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <!-- ****** ADD ONE WHENEVER YOU ADD A NEW TRACK!!! ****** -->
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="https://soundcloud.com/kn_p/demons" target="_blank">
+                        <img src="/images/Demons.png" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">DEMONS</h3>
+                        <p class="song-description">A lyrical flow about fighting your inner demons like anxiety and depression with a hard trap drop.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://ffm.to/kenney-triumph" target="_blank">
+                        <img src="/images/Triumph.png" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">TRIUMPH</h3>
+                        <p class="song-description">A rock metal and EDM Trap banger.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://soundcloud.com/kn_p/own-brand-freestyle-kenney-remix" target="_blank">
+                        <img src="/images/Own-brand-freestyle.jpeg" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">Own Brand Freestyle (Kenney Remix)</h3>
+                        <p class="song-description">A trap remix of the famous tik tok song "Own Brand Freestyle (I Aint Ever Been With A Baddie)".</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://soundcloud.com/kn_p/don-toliver-after-party-kenney-remix" target="_blank">
+                        <img src="/images/don-toliver.png" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">Don Toliver - After Party (Kenney Remix)</h3>
+                        <p class="song-description">An emotional trap remix of Don Toliver's After Party".</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://soundcloud.com/kn_p/alison-wonderland-kenney-squid-games-edit" target="_blank">
+                        <img src="/images/alison-wonderland-bigger.png" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">Alison Wonderland - Good Enough (Kenney Squid Games Edit)</h3>
+                        <p class="song-description">A Squid Games rendition of Alison Wonderland's Good Enough".</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://ffm.to/kennney-knockout" target="_blank">
+                        <img src="/images/Knockout.png" class="album-pic">
+                    </a>
+                    <div class="carousel-caption">
+                        <h3 class="song-title">KNOCKOUT</h3>
+                        <p class="song-description">A combination of Hip Hop and EDM Trap that takes you on a journey of emotions from angry to hopeful.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+@code {
+    @*protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JS.InvokeVoidAsync("musicSticky");
+    }*@
+}
