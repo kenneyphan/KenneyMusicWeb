@@ -124,15 +124,16 @@
 
 /* safari */
 @media not all and (min-resolution: .001dpcm) {
+    /* desktop */
     @media {
         .index-container .social-links {
             margin-bottom: 4%;
         }
     }
 
-    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
+/*    @media only screen and (min-width: 1440px) and (max-width: 1679px) {
         .index-container .title.sticky {
             padding-bottom: 0%;
         }
-    }
+    }*/
 }
