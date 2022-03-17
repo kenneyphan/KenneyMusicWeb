@@ -83,3 +83,12 @@
         font-size: 1rem !important;
     }
 }
+
+/* safari */
+@media not all and (min-resolution: .001dpcm) {
+    @media {
+        .contact-container .row {
+            display: -webkit-box;
+        }
+    }
+}

@@ -4,10 +4,12 @@
     object-fit: cover;
     object-position: 100% 30%;
     position: absolute;
+    z-index: -1;
 }
 
 .navigation {
     position: sticky;
+    position: -webkit-sticky; /* for safari */
     float: right;
     top: -1px;
     align-items: center;
@@ -29,10 +31,6 @@
 .body-container {
     margin-top: 313px;
 }
-
-    .body-container.sticky {
-/*        margin-top: 390px;*/
-    }
 
 .page {
     position: relative;
