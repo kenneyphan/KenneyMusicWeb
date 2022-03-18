@@ -84,9 +84,10 @@
     }
 }
 
-/* safari desktop */
-@media not all and (min-resolution: .001dpcm) and (min-width: 768px) {
-    @media {
+/* safari */
+@media not all and (min-resolution: .001dpcm) {
+    /* desktop */
+    @media only screen and (min-width: 768px) {
         .contact-container .row {
             display: -webkit-box;
         }
