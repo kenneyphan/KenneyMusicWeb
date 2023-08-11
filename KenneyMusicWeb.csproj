@@ -14,3 +14,4 @@
     <PackageReference Include="Toolbelt.Blazor.HeadElement" Version="7.0.0" />
   </ItemGroup>
 </Project>
+
