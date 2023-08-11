@@ -1,0 +1,105 @@
+.music-container[b-a25vl8vhjc] {
+    background-color: aliceblue;
+}
+
+.link-container[b-a25vl8vhjc] {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.music-platform[b-a25vl8vhjc] {
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: Dosis;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    letter-spacing: 3px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.music-link[b-a25vl8vhjc] {
+    color: black;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(17,17,17,.3);
+    transition: border-color .15s ease-out,color .15s ease-out;
+    text-decoration: none;
+}
+
+    .music-link:hover[b-a25vl8vhjc] {
+        color: grey;
+    }
+
+.albums[b-a25vl8vhjc] {
+    width: 48%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+    .album-pic:hover[b-a25vl8vhjc] {
+        border: 5px solid black;
+    }
+
+.item .carousel-caption[b-a25vl8vhjc] {
+    color: antiquewhite;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 55px;
+    }
+
+    .albums[b-a25vl8vhjc] {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .albums[b-a25vl8vhjc] {
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .albums[b-a25vl8vhjc] {
+        width: 80%;
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 8px;
+    }
+
+    .song-title[b-a25vl8vhjc] {
+        font-size: 15px;
+    }
+
+    .song-description[b-a25vl8vhjc] {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .albums[b-a25vl8vhjc] {
+        width: 95%
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 10px;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (min-height: 780px) {
+    .albums[b-a25vl8vhjc] {
+        width: 95%;
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        margin-top: 3%;
+    }
+}
+

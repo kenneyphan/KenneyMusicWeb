@@ -1,0 +1,95 @@
+.contact-container[b-g7ricpde1m] {
+    display: flex;
+    justify-content: center;
+}
+
+.input-label[b-g7ricpde1m] {
+    font-size: 12px;
+}
+
+.status[b-g7ricpde1m] {
+    margin-top: 1%;
+}
+
+.contact-me[b-g7ricpde1m] {
+    margin-top: 1%;
+}
+
+.send-btn[b-g7ricpde1m] {
+    font-size: 1rem;
+}
+
+.contact-description[b-g7ricpde1m] {
+    width: 70%;
+}
+
+.contact-container .row[b-g7ricpde1m] {
+    height: 70px;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .contact-me[b-g7ricpde1m] {
+        width: 67%;
+    }
+
+    .contact-description[b-g7ricpde1m] {
+        font-size: 16px;
+    }
+
+    .contact-icon[b-g7ricpde1m] {
+        font-size: 2.5em;
+    }
+
+    .contact-info[b-g7ricpde1m] {
+        font-size: 16px;
+    }
+
+    .send-btn[b-g7ricpde1m] {
+        font-size: 1.5rem;
+    }
+
+    .contact-container div.row[b-g7ricpde1m] {
+        height: 83px;
+    }
+
+    .input-label[b-g7ricpde1m] {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 720px) {
+    .contact-container div.row[b-g7ricpde1m] {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-description[b-g7ricpde1m] {
+        font-size: 12px;
+    }
+
+    .contact-container div.row[b-g7ricpde1m] {
+        height: auto;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .input-label[b-g7ricpde1m] {
+        font-size: 10px;
+    }
+
+    div.row .md-form label.input-label.active[b-g7ricpde1m] {
+        transform: translateY(-14px) scale(1) !important;
+        font-size: 1rem !important;
+    }
+}
+
+/* safari */
+@media not all and (min-resolution: .001dpcm) {
+    /* desktop */
+    @media only screen and (min-width: 768px) {
+        .contact-container .row[b-g7ricpde1m] {
+            display: -webkit-box;
+        }
+    }
+}

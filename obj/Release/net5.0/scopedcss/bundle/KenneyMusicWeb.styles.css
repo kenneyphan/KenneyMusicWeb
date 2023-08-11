@@ -1,0 +1,488 @@
+/* _content/KenneyMusicWeb/Pages/Contact.razor.rz.scp.css */
+.contact-container[b-g7ricpde1m] {
+    display: flex;
+    justify-content: center;
+}
+
+.input-label[b-g7ricpde1m] {
+    font-size: 12px;
+}
+
+.status[b-g7ricpde1m] {
+    margin-top: 1%;
+}
+
+.contact-me[b-g7ricpde1m] {
+    margin-top: 1%;
+}
+
+.send-btn[b-g7ricpde1m] {
+    font-size: 1rem;
+}
+
+.contact-description[b-g7ricpde1m] {
+    width: 70%;
+}
+
+.contact-container .row[b-g7ricpde1m] {
+    height: 70px;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .contact-me[b-g7ricpde1m] {
+        width: 67%;
+    }
+
+    .contact-description[b-g7ricpde1m] {
+        font-size: 16px;
+    }
+
+    .contact-icon[b-g7ricpde1m] {
+        font-size: 2.5em;
+    }
+
+    .contact-info[b-g7ricpde1m] {
+        font-size: 16px;
+    }
+
+    .send-btn[b-g7ricpde1m] {
+        font-size: 1.5rem;
+    }
+
+    .contact-container div.row[b-g7ricpde1m] {
+        height: 83px;
+    }
+
+    .input-label[b-g7ricpde1m] {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 720px) {
+    .contact-container div.row[b-g7ricpde1m] {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-description[b-g7ricpde1m] {
+        font-size: 12px;
+    }
+
+    .contact-container div.row[b-g7ricpde1m] {
+        height: auto;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .input-label[b-g7ricpde1m] {
+        font-size: 10px;
+    }
+
+    div.row .md-form label.input-label.active[b-g7ricpde1m] {
+        transform: translateY(-14px) scale(1) !important;
+        font-size: 1rem !important;
+    }
+}
+/* _content/KenneyMusicWeb/Pages/Index.razor.rz.scp.css */
+.title[b-2xj3rg5xn9] {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 4px;
+    color: black;
+    padding-top: 3%;
+    margin: 0;
+    font-family: cursive;
+}
+
+.index-container[b-2xj3rg5xn9] {
+    background-color: aliceblue;
+    padding-bottom: 1%;
+    height: 100%;
+}
+
+.container.arena-container[b-2xj3rg5xn9] {
+    text-align: center;
+}
+
+.arena-pic[b-2xj3rg5xn9] {
+    width: 50%;
+}
+
+.person[b-2xj3rg5xn9] {
+    border: 10px solid transparent;
+}
+
+    .person:hover[b-2xj3rg5xn9] {
+        border: 10px solid rgba(0,0,0,0.2);
+    }
+
+.social-links[b-2xj3rg5xn9] {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 14%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.social-item[b-2xj3rg5xn9] {
+    font-size: 2.5rem;
+    color: grey;
+    position: absolute;
+}
+
+    .social-item:hover[b-2xj3rg5xn9] {
+        color: #202020;
+        font-size: 3rem;
+    }
+
+.description[b-2xj3rg5xn9] {
+    width: 75%;
+    margin: 1% auto 1% auto;
+}
+
+.description-txt[b-2xj3rg5xn9] {
+    font-size: 15px;
+}
+
+
+.quote[b-2xj3rg5xn9] {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .title[b-2xj3rg5xn9] {
+        font-size: 7rem;
+    }
+
+    .social-item[b-2xj3rg5xn9] {
+        font-size: 3rem;
+    }
+
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 60%;
+    }
+
+    .description-txt[b-2xj3rg5xn9] {
+        font-size: 17px;
+    }
+
+    .quote[b-2xj3rg5xn9] {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .index-container .title.sticky[b-2xj3rg5xn9] {
+        padding-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social-links[b-2xj3rg5xn9] {
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .social-item[b-2xj3rg5xn9] {
+        font-size: 2rem;
+    }
+
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (min-height: 780px){
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 100%;
+    }
+}
+/* _content/KenneyMusicWeb/Pages/Music.razor.rz.scp.css */
+.music-container[b-a25vl8vhjc] {
+    background-color: aliceblue;
+}
+
+.link-container[b-a25vl8vhjc] {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.music-platform[b-a25vl8vhjc] {
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: Dosis;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    letter-spacing: 3px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.music-link[b-a25vl8vhjc] {
+    color: black;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(17,17,17,.3);
+    transition: border-color .15s ease-out,color .15s ease-out;
+    text-decoration: none;
+}
+
+    .music-link:hover[b-a25vl8vhjc] {
+        color: grey;
+    }
+
+.albums[b-a25vl8vhjc] {
+    width: 48%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+    .album-pic:hover[b-a25vl8vhjc] {
+        border: 5px solid black;
+    }
+
+.item .carousel-caption[b-a25vl8vhjc] {
+    color: antiquewhite;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 55px;
+    }
+
+    .albums[b-a25vl8vhjc] {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .albums[b-a25vl8vhjc] {
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .albums[b-a25vl8vhjc] {
+        width: 80%;
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 8px;
+    }
+
+    .song-title[b-a25vl8vhjc] {
+        font-size: 15px;
+    }
+
+    .song-description[b-a25vl8vhjc] {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .albums[b-a25vl8vhjc] {
+        width: 95%
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        font-size: 10px;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (min-height: 780px) {
+    .albums[b-a25vl8vhjc] {
+        width: 95%;
+    }
+
+    .music-platform[b-a25vl8vhjc] {
+        margin-top: 3%;
+    }
+}
+
+/* _content/KenneyMusicWeb/Shared/MainLayout.razor.rz.scp.css */
+.banner[b-kt0u5729jp] {
+    width: 100%;
+    height: 313px;
+    object-fit: cover;
+    object-position: 100% 30%;
+    position: absolute;
+}
+
+.navigation[b-kt0u5729jp] {
+    position: sticky;
+    float: right;
+    top: -1px;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    text-align: right;
+    margin-right: 2%;
+    padding-top: 25px;
+    transition: padding .3s;
+    z-index: 1000;
+}
+
+    .navigation.sticky[b-kt0u5729jp] {
+        background-color: #222;
+        padding: 11px 0;
+        margin-right: 0%;
+    }
+
+.body-container[b-kt0u5729jp] {
+    margin-top: 313px;
+}
+
+    .body-container.sticky[b-kt0u5729jp] {
+/*        margin-top: 390px;*/
+    }
+
+.page[b-kt0u5729jp] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-kt0u5729jp] {
+    flex: 1;
+}
+
+.sidebar[b-kt0u5729jp] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-kt0u5729jp] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-kt0u5729jp]  a, .top-row .btn-link[b-kt0u5729jp] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-kt0u5729jp] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-kt0u5729jp] {
+        display: none;
+    }
+
+    .top-row.auth[b-kt0u5729jp] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-kt0u5729jp], .top-row .btn-link[b-kt0u5729jp] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-kt0u5729jp] {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .sidebar[b-kt0u5729jp] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-kt0u5729jp] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation[b-kt0u5729jp] {
+        text-align: center;
+    }
+}
+/* _content/KenneyMusicWeb/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-vnvesj1eis] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-vnvesj1eis] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-vnvesj1eis] {
+    font-size: 1.1rem;
+}
+
+.oi[b-vnvesj1eis] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-vnvesj1eis] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-vnvesj1eis] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-vnvesj1eis] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-vnvesj1eis]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-vnvesj1eis]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-vnvesj1eis]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-vnvesj1eis] {
+        display: none;
+    }
+
+    .collapse[b-vnvesj1eis] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

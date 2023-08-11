@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Quick.AspNetCore.Components.Web.Extensions" Path="/Users/kenney/.nuget/packages/quick.aspnetcore.components.web.extensions/6.0.2/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Toolbelt.Blazor.HeadElement.Services" Path="/Users/kenney/.nuget/packages/toolbelt.blazor.headelement.services/7.0.0/build/../staticwebassets/" />
+  <ContentRoot BasePath="/" Path="/Users/kenney/Projects/KenneyMusicWeb/KenneyMusicWeb/obj/Release/net5.0/scopedcss/bundle/" />
+</StaticWebAssets>

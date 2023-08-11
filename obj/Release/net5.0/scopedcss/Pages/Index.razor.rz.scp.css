@@ -1,0 +1,123 @@
+.title[b-2xj3rg5xn9] {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 4px;
+    color: black;
+    padding-top: 3%;
+    margin: 0;
+    font-family: cursive;
+}
+
+.index-container[b-2xj3rg5xn9] {
+    background-color: aliceblue;
+    padding-bottom: 1%;
+    height: 100%;
+}
+
+.container.arena-container[b-2xj3rg5xn9] {
+    text-align: center;
+}
+
+.arena-pic[b-2xj3rg5xn9] {
+    width: 50%;
+}
+
+.person[b-2xj3rg5xn9] {
+    border: 10px solid transparent;
+}
+
+    .person:hover[b-2xj3rg5xn9] {
+        border: 10px solid rgba(0,0,0,0.2);
+    }
+
+.social-links[b-2xj3rg5xn9] {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 14%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.social-item[b-2xj3rg5xn9] {
+    font-size: 2.5rem;
+    color: grey;
+    position: absolute;
+}
+
+    .social-item:hover[b-2xj3rg5xn9] {
+        color: #202020;
+        font-size: 3rem;
+    }
+
+.description[b-2xj3rg5xn9] {
+    width: 75%;
+    margin: 1% auto 1% auto;
+}
+
+.description-txt[b-2xj3rg5xn9] {
+    font-size: 15px;
+}
+
+
+.quote[b-2xj3rg5xn9] {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    .title[b-2xj3rg5xn9] {
+        font-size: 7rem;
+    }
+
+    .social-item[b-2xj3rg5xn9] {
+        font-size: 3rem;
+    }
+
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 60%;
+    }
+
+    .description-txt[b-2xj3rg5xn9] {
+        font-size: 17px;
+    }
+
+    .quote[b-2xj3rg5xn9] {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+    .index-container .title.sticky[b-2xj3rg5xn9] {
+        padding-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social-links[b-2xj3rg5xn9] {
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .social-item[b-2xj3rg5xn9] {
+        font-size: 2rem;
+    }
+
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (min-height: 780px){
+    .arena-pic[b-2xj3rg5xn9] {
+        width: 100%;
+    }
+}
